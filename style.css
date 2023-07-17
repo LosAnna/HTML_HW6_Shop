@@ -193,3 +193,51 @@
     background: #F26376;
     color: #FFFFFF;
  }
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+   .center {
+      padding-left: calc(50% - 368px);
+      padding-right: calc(50% - 368px);
+   }
+
+   .header__menu {
+      gap: 424px;
+   }
+
+   .header__title {
+      gap: 39px;
+   }
+
+   .navigation {
+      gap: 25px;
+   }
+
+   .top__catalog {
+      grid-template-columns: repeat(3, 232px);
+      gap: 20px;
+   }
+
+   .products {
+      grid-template-columns: repeat(2, 360px);
+      gap: 16px;
+   }
+
+   .title__image {
+      width: 368px;
+      margin-left: -100px;
+   }
+
+   .header__text {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 53px;
+   }
+
+   .second__line {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+   }
+}
