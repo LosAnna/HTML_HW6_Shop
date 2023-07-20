@@ -30,6 +30,13 @@
    gap: 40px;
 }
 
+.search:hover path,
+.burger:hover path,
+.user:hover path,
+.shop__cart:hover path {
+   fill: #F16D7F;
+}
+
 .navigation {
    display: flex;
    flex-direction: row;
@@ -219,6 +226,191 @@
     color: #FFFFFF;
  }
 
+ .advantages {
+   margin-top: 95px;
+   background: #222224;
+   padding-top: 103px;
+   padding-bottom: 104px;
+   display: grid;
+   grid-template-columns: repeat(3, 360px);
+   gap: 30px;
+   text-align: center;
+   justify-content: center;  
+ }
+
+ .value {
+   padding-left: 13px;
+   padding-right: 13px;  
+ }
+
+.advantages__title {
+   margin-top: 28px;
+   font-size: 20px;
+   line-height: 24px;
+   color: #FBFBFB;
+   font-style: normal;
+   font-weight: 400;
+} 
+
+.advantages__text {
+   margin-top: 16px;
+   font-size: 14px;
+   line-height: 17px;
+   text-align: center;
+   color: #FBFBFB;
+   font-style: normal;
+   font-weight: 300;
+}
+
+.subscribe {
+   position: relative;
+   padding-top: 87px;
+   padding-bottom: 126px;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.subscribe {
+   background-image: url(img/img__subscribe.jpg);
+   background-position: bottom;
+   background-size: cover;
+}
+
+.background__filter {
+   background: rgba(244, 244, 244, 0.7);
+   position: absolute;
+   left: 0%;
+   right: 0%;
+   top: 0%;
+   bottom: 0%;
+   z-index: 1;
+}
+
+.review {
+   width: 360px;
+   text-align: center;
+   z-index: 2;   
+}
+
+.review__text {
+   margin-top: 30px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: center;
+   color: #222224;
+}
+
+.italic {
+   font-style: italic;
+}
+
+.regisration__form {
+   z-index: 2;
+}
+
+.registr__title {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 167%;
+   text-align: center;
+   color: #222224;
+}
+
+.registr__text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 167%;
+   text-align: center;
+   color: #222224;
+}
+
+.input__email {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 39px;
+}
+
+.email {
+   border-top-left-radius: 22px;
+   border-bottom-left-radius: 22px;
+   height: 49px;
+   width: 256px;
+   background: #E1E1E1;
+   border: none;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   display: flex;
+   align-items: center;
+   color: #222224;
+   padding-left: 22px;
+   opacity: 0.67;
+}
+
+.button__subscribe {
+   border: none;
+   width: 100px;
+   height: 49px;
+   border-top-right-radius: 22px;
+   border-bottom-right-radius: 22px;
+   background: #F16D7F;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   color: #FFFFFF;
+   transition: all 0.2s ease;
+}
+
+.button__subscribe:hover {
+   background: #FFFFFF;
+   color: #F16D7F;
+}
+
+.copyright {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background: #222224;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;   
+}
+
+.copy {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #FBFBFB;   
+}
+
+.media__icon {
+   display: flex;
+   gap: 8px;
+}
+
+.img__svg:hover .fon__svg {
+   fill: #F16D7F;
+}
+
+.img__svg:hover path {
+   fill: #FFFFFF;
+}
+
  /*tablet version  */
 @media (min-width: 768px) and (max-width: 1024px) {
    .center {
@@ -351,3 +543,4 @@
       margin-top: 40px;
    }
 }
+
