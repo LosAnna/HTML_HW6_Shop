@@ -458,7 +458,23 @@
       font-size: 24px;
       line-height: 29px;
    }
+
+   .advantages {
+      grid-template-columns: repeat(1, 360px);
+      gap: 48px;
+      padding-top: 48px;
+      padding-bottom: 64px;   
+   }
+
+   .subscribe {
+      background-position: 20%;
+      padding-top: 64px;
+      padding-bottom: 140px;
+      justify-content: center;
+      gap: 48px;
+   }
 }
+
 
 /* mobile version */
 @media (max-width: 767px) {
@@ -541,6 +557,30 @@
 
    .button {
       margin-top: 40px;
+   }
+
+   .email {
+      width: 180px;
+   }
+
+   .advantages {
+      grid-template-columns: repeat(1, 319px);
+      gap: 46px;
+      padding-top: 48px;
+      padding-bottom: 81px;
+   }
+
+   .subscribe {
+      padding-bottom: 110px;
+      justify-content: center;
+      gap: 59px;   
+   }
+
+   .copyright {
+      padding-top: 43px;
+      padding-bottom: 9px;
+      flex-direction: column-reverse;
+      gap: 40px;
    }
 }
 
